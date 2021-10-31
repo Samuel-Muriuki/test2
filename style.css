@@ -1,0 +1,166 @@
+html, body{
+  margin: 0%;
+}
+
+.container{
+  display: flex;
+  height: 50em;
+  flex-direction: column;
+  background: linear-gradient(120deg, #fff 50%, orange 50%);
+}
+
+.left{
+  flex: auto;
+  display: flex;
+  float: left;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.right{
+  flex: auto;
+  display: flex;
+  width: 65%;
+  float: right;
+}
+
+.right > ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.button{
+  border: 1px solid;
+  border-color: orange;
+  background-color: orange;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+}
+
+.rltv-img> img{
+  position: relative;
+  margin-left: -45rem;
+  width: 35rem;
+  height: 40rem;
+  object-position: 5px 10%;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+.orng{
+  color: rgb(255, 198, 92);
+}
+
+.header-left{
+  text-align: left;
+}
+
+.phase2-container{
+  background-color: #f0f8f8;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10%;
+}
+
+.margn-a{
+  height: 50%;
+  width: 30%;
+  justify-content: space-around;
+  display: block;
+  padding: 50%;
+  border-radius: 20px;
+}
+
+.margn-b{
+  margin: 1%;
+  height: 50%;
+  width: 30%;
+  justify-content: space-around;
+  display: block;
+  padding: 50%;
+  border-radius: 20px;
+}
+
+.margn-a2{
+  align-items: right;
+  height: 50%;
+  width: 30%;
+  justify-content: space-around;
+  display: block;
+  padding: 50%;
+  border-radius: 20px;
+}
+
+.phase3-container{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10%;
+}
+.underline{
+  color: orange;
+}
+
+.menu{
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: black;
+  display: flex;
+  padding: 5%;
+  width: 30%;
+  justify-content: space-around;
+  margin-bottom: 1%;
+}
+
+.phase4-container{
+  background-color: #f0f8f8;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10%;
+}
+
+.phase5-container{
+  background-color: rgb(243, 184, 20);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10%;
+}
